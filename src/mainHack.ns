@@ -63,7 +63,7 @@ function localeHHMMSS(ms = 0) {
     ms = new Date().getTime()
   }
 
-  return new Date(ms).toLocaleDateString() + new Date(ms).toLocaleDateTimeString() 
+  return new Date(ms).toLocaleDateString() + new Date(ms).toLocaleTimeString() 
 }
 
 function numberWithCommas(x) {
